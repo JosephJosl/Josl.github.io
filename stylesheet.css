@@ -3,13 +3,9 @@
 	margin:0;
 }
 
-html {
-	overflow-y:scroll;
-}
-
 body {
-	background-color: #8c8c8c; /*Hintergrundfarbe*/
-	background-image:url(spray2.png);
+	background-color: #7437ff; /*Hintergrundfarbe*/
+	/*background-image:url(Bilder/spray2.png);*/
 	background-attachment:fixed;
 	/*background-repeat:repeat;*/
 	background-position:left top;
@@ -18,19 +14,47 @@ body {
 	font-size:87.5%;
 }
 
+div#navbar {
+	background-color: #310341;
+	margin:10px;
+	width:900px;
+	height:50px;
+	font-family: sans-serif;
+}
+div#navbar li {
+	display:block;
+	width:120px;
+	float:left;
+	margin-left:2px;
+	border:1px solid #000;
+}
+
+div#navbar a {
+	display:block;
+	padding:15px;
+	background-color:#310341;
+	color:#c16aff;
+}
+
+div#navbar a:hover {
+	background-color:#c16aff;
+	color:#310341;
+}
+
 div#wrapper {
-	background-color:white;
+	background-color:#5b58ff;
 	color:black;
-	width: 405px;
+	width: 403px;
 	margin-top:10px;
 	margin-right:auto;
 	margin-bottom:10px;
 	margin-left:auto;
 	border-style: solid;
+	border-color:#000000;
 }
 
 div#header {
-	background-color:"";
+	background-color:#c16aff;
 	color:black;
 	width: 400px;
 	height: 200px;
@@ -76,7 +100,7 @@ a{
 	text-decoration:none; /*Unterstreichen entfernen*/
 }
 a:link{
-	color:#d90000;
+	color:#c99cc9;
 }
 
 a:visited{
@@ -93,3 +117,8 @@ a:active{
 	color:white;
 	background-color:#d90000;
 }
+
+ol,ul {
+	list-style: none;
+}
+
